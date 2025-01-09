@@ -1,0 +1,58 @@
+.advertisement {
+  background-color: #fbfbfb;
+}
+
+.advertisement-content {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+@media screen and (max-width: 374px) {
+  .advertisement-content {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-content {
+    font-size: 64px;
+    line-height: 1;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement-content {
+    font-size: 76px;
+    padding-left: 16px;
+    
+  }
+}
+
+.advertisement-content-span {
+  display: inline-block;
+  background-color: #576f35;
+  color: #fbfbfb;
+  border-radius: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement-content-span {
+    padding-top: 20px;
+    padding-right: 8px;
+    height: 86px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement-content-span {
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 16px;
+    margin-left: -16px;
+    height: 84px;
+  }
+}

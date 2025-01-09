@@ -1,0 +1,127 @@
+<section id="your-order" class="your-order section">
+  <div class="container">
+    <div class="order-container">
+      <h2 class="order-title">
+        Fresh <span class="harvest-span"> Harvest</span> Box has got you covered
+      </h2>
+      <p class="order-text">
+        Our boxes are packed with delicious, nutritious vegetables, perfect for
+        anyone looking to eat healthier or support local farmers. Order your box
+        today and start enjoying the best that nature has to offer!
+      </p>
+    </div>
+
+    <div class="order-inner">
+      <div class="order-cards">
+        <p class="order-desc">
+          Ordering <span class="from-us-span"> from us </span> is quick and
+          easy! Fill out <span class="the-form-span"> the form </span> below and
+          we will contact you !
+        </p>
+        <form>
+          <div class="order-wrapper">
+            <input
+              class="order-input"
+              name="full-name"
+              id="full-name"
+              type="text"
+              placeholder="Full Name"
+              required
+              aria-label="Full name"
+            />
+          </div>
+
+          <div class="order-wrapper">
+            <input
+              class="order-input"
+              name="email"
+              id="input-email"
+              type="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+              aria-label="Email"
+            />
+            <p class="text-valid">Success!</p>
+            <p class="text-invalid">Invalid email, try again</p>
+          </div>
+
+          <textarea
+            class="order-textarea"
+            name="user-comment"
+            id="user-comment"
+            rows="5"
+            placeholder="Comment"
+            aria-label="Comment"
+          ></textarea>
+
+          <button class="order-send-button" type="submit">Send</button>
+        </form>
+      </div>
+      <div class="order-cards order-wrap">
+        <picture>
+          <!-- Desktop -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/your-order/your-order-desktop.jpg    1x,
+              ./img/your-order/your-order-desktop@2x.jpg 2x
+            "
+          />
+          <!-- Tablet -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/your-order/your-order-tablet.jpg    1x,
+              ./img/your-order/your-order-tablet@2x.jpg 2x
+            "
+          />
+          <!-- Mobile -->
+          <source
+            media="(min-width: 375px)"
+            srcset="
+              ./img/your-order/your-order-mobile.jpg    1x,
+              ./img/your-order/your-order-mobile@2x.jpg 2x
+            "
+          />
+          <img
+            class="order-img"
+            src="./img/your-order/your-order-mobile.jpg"
+            alt="image"
+            width="428"
+            height="352"
+          />
+        </picture>
+        <div class="order-box">
+          <p class="order-social-text">Follow us on our social networks:</p>
+          <ul class="order-nav-social">
+            <li class="social-networks">
+              <a
+                class="order-social"
+                href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                >instagram</a
+              >
+            </li>
+            <li class="social-networks">
+              <a
+                class="order-social"
+                href="https://www.facebook.com/goITclub/ "
+                target="_blank"
+                >facebook</a
+              >
+            </li>
+            <li class="social-networks">
+              <a
+                class="order-social"
+                href="https://www.youtube.com/c/GoIT"
+                target="_blank"
+                >youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

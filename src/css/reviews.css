@@ -1,0 +1,150 @@
+  /* review section */
+
+.reviews-section {
+    background-color: #FBFBFB;
+}
+
+.review-title-container {
+    margin-bottom: 40px;
+}
+
+.review-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    margin-bottom: 20px;
+}
+
+.review-title-span {
+    color: #576F35;
+}
+
+.review-paragraph {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #141414;
+    max-width: 335px;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 38px;
+    overflow-x: scroll;
+}
+
+.review-item {
+    min-width: 335px;
+    min-height: 228px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #D4BFC4;
+    border-radius: 24px;
+    text-align: center;
+    align-items: center;
+    padding: 20px 16px;
+}
+
+.review-person-img {
+    margin-bottom: 24px;
+}
+
+.review-list::-webkit-scrollbar {
+    display: none;
+}
+
+.review-person-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #141414;
+}
+
+.review-comment {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    color: #858585;
+    max-width: 288px;
+}
+
+@media screen and (min-width: 768px) {
+    .review-title-container {
+        margin-bottom: 52px;
+        max-width: 553px;
+    }
+    
+    .review-title {
+        font-size: 64px;
+        line-height: 1;
+        margin-bottom: 24px;
+    }
+
+    .review-paragraph {
+        max-width: 553px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    
+    .review-item {
+        min-width: 340px;
+        min-height: 248px;
+    }
+
+    .review-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 24px;
+        overflow-x: scroll;
+    }
+
+    .review-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .review-comment {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .review-title {
+        font-size: 64px;
+        line-height: 1;
+    }
+
+    .review-paragraph {
+        max-width: 553px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .review-item {
+        /* min-width: 344px; */
+        /* min-height: 248px; */
+        flex-basis: calc(100% - 48px / 3);
+    }
+
+    .review-list { 
+        gap: 24px;
+        overflow-x: hidden;
+    }
+
+    .review-comment {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}

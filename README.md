@@ -1,4 +1,17 @@
-# Vanilla App Template
+## ✨ Features
+
+- Fast dev server & HMR via Vite
+- Production build optimized for static hosting
+- ESLint & Prettier preconfigured
+- GitHub Actions for auto-deploy to GitHub Pages
+- Simple, modular project structure
+
+## 🧰 Tech Stack
+
+- **Vite** (bundler & dev server)
+- **Vanilla JS / HTML / CSS**
+- **ESLint** + **Prettier**
+- **GitHub Pages** (static hosting)# Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
 додаткових можливостей [звернись до документації](https://vitejs.dev/).
